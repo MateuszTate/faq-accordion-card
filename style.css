@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 9%;
+    background-color: white;
+    width: 1024px;
+    height: 574px;
+    border-radius: 3%;
+}
+
+.babka {
+    position: absolute;
+    top: 120px;
+    right: 623px;
+    clip-path: inset(0 0 0 15%);
+}
+
+.pattern {
+    position: absolute;
+    bottom: -144px;
+    right: 609px;
+    clip-path: inset(24% 0 15% 57%);
+}
+
+.box {
+    position: absolute;
+    top: 255px;
+    right: 920px;
+}
+
+h1 {
+    margin-left: 510px;
+    margin-top: 90px;
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+}
+
+.textP {
+    position: relative;
+    width: 40%;
+    margin-left: 510px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px hsl(240, 5%, 91%);
+    color: hsl(237, 12%, 33%);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.textP.active {
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+}
+
+.arrowDown {
+    position: absolute;
+    right: 10px;
+    margin-top: 8px;
+}
+
+.textP:hover,
+.textP.active:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.pokliku {
+    font-size: 14px;
+    color: hsl(240, 6%, 50%);
+    display: none;
+    margin-top: 5px;
+    font-weight: normal; /* Usunięcie właściwości bold */
+}
